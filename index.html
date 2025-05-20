@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-PropertyMonitorSuite" class="navigator-link">
+              <span class="suite-name border-passed">PropertyMonitorSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-PropertyMonitorSuite" class="navigator-link ">
+                    <span>C:\Users\admin\eclipse-workspace\PMIQ-Automation\src\test\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-PropertyMonitorSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-PropertyMonitorSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-PropertyMonitorSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-PropertyMonitorSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-PropertyMonitorSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-PropertyMonitorSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PropertyMonitorSuite" class="hide-methods passed suite-PropertyMonitorSuite"> (hide)</a> <!-- hide-methods passed suite-PropertyMonitorSuite -->
+                      <a href="#" panel-name="suite-PropertyMonitorSuite" class="show-methods passed suite-PropertyMonitorSuite"> (show)</a> <!-- show-methods passed suite-PropertyMonitorSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PropertyMonitorSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.ProjectSearchTest" class="method navigator-link" hash-for-method="testClearLocationUpdatesProjectCount">testClearLocationUpdatesProjectCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.ProjectSearchTest" class="method navigator-link" hash-for-method="testSearchLocationUpdatesProjectCount">testSearchLocationUpdatesProjectCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.ProjectSearchTest" class="method navigator-link" hash-for-method="testSelectApartmentUnitType">testSelectApartmentUnitType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.ProjectSearchTest" class="method navigator-link" hash-for-method="testSelectUpcomingSaleStatus">testSelectUpcomingSaleStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.ProjectSearchTest" class="method navigator-link" hash-for-method="testUncheckUpcomingSaleStatus">testUncheckUpcomingSaleStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.ProjectSearchTest" class="method navigator-link" hash-for-method="testUnselectApartmentUnitType">testUnselectApartmentUnitType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.LoginPageTest" class="method navigator-link" hash-for-method="testValidLoginLandsOnProjectSearch">testValidLoginLandsOnProjectSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PropertyMonitorSuite" title="com.propertymonitor.tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyProjectSearchUrlLoaded">verifyProjectSearchUrlLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PropertyMonitorSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PropertyMonitorSuite" class="panel PropertyMonitorSuite">
+          <div class="suite-PropertyMonitorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propertymonitor.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLoginLandsOnProjectSearch">
+                  </a> <!-- testValidLoginLandsOnProjectSearch -->
+                  <span class="method-name">testValidLoginLandsOnProjectSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProjectSearchUrlLoaded">
+                  </a> <!-- verifyProjectSearchUrlLoaded -->
+                  <span class="method-name">verifyProjectSearchUrlLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PropertyMonitorSuite-class-passed -->
+          <div class="suite-PropertyMonitorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propertymonitor.tests.ProjectSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearLocationUpdatesProjectCount">
+                  </a> <!-- testClearLocationUpdatesProjectCount -->
+                  <span class="method-name">testClearLocationUpdatesProjectCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchLocationUpdatesProjectCount">
+                  </a> <!-- testSearchLocationUpdatesProjectCount -->
+                  <span class="method-name">testSearchLocationUpdatesProjectCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectApartmentUnitType">
+                  </a> <!-- testSelectApartmentUnitType -->
+                  <span class="method-name">testSelectApartmentUnitType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectUpcomingSaleStatus">
+                  </a> <!-- testSelectUpcomingSaleStatus -->
+                  <span class="method-name">testSelectUpcomingSaleStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUncheckUpcomingSaleStatus">
+                  </a> <!-- testUncheckUpcomingSaleStatus -->
+                  <span class="method-name">testUncheckUpcomingSaleStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnselectApartmentUnitType">
+                  </a> <!-- testUnselectApartmentUnitType -->
+                  <span class="method-name">testUnselectApartmentUnitType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PropertyMonitorSuite-class-passed -->
+        </div> <!-- panel PropertyMonitorSuite -->
+        <div panel-name="test-xml-PropertyMonitorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace\PMIQ-Automation\src\test\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PropertyMonitorSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Tests&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;stage&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.propertymonitor.tests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.propertymonitor.tests.ProjectSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Tests --&gt;
+&lt;/suite&gt; &lt;!-- PropertyMonitorSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PropertyMonitorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PropertyMonitorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PropertyMonitorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PropertyMonitorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PropertyMonitorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PropertyMonitorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PropertyMonitorSuite');
+function tableData_PropertyMonitorSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearchLocationUpdatesProjectCount')
+data.setCell(0, 2, 'com.propertymonitor.tests.ProjectSearchTest')
+data.setCell(0, 3, 12735);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSelectApartmentUnitType')
+data.setCell(1, 2, 'com.propertymonitor.tests.ProjectSearchTest')
+data.setCell(1, 3, 7188);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUncheckUpcomingSaleStatus')
+data.setCell(2, 2, 'com.propertymonitor.tests.ProjectSearchTest')
+data.setCell(2, 3, 7049);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUnselectApartmentUnitType')
+data.setCell(3, 2, 'com.propertymonitor.tests.ProjectSearchTest')
+data.setCell(3, 3, 5149);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testClearLocationUpdatesProjectCount')
+data.setCell(4, 2, 'com.propertymonitor.tests.ProjectSearchTest')
+data.setCell(4, 3, 4804);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSelectUpcomingSaleStatus')
+data.setCell(5, 2, 'com.propertymonitor.tests.ProjectSearchTest')
+data.setCell(5, 3, 3385);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testValidLoginLandsOnProjectSearch')
+data.setCell(6, 2, 'com.propertymonitor.tests.LoginPageTest')
+data.setCell(6, 3, 132);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyProjectSearchUrlLoaded')
+data.setCell(7, 2, 'com.propertymonitor.tests.LoginPageTest')
+data.setCell(7, 3, 22);
+window.suiteTableData['PropertyMonitorSuite']= { tableData: data, tableDiv: 'times-div-PropertyMonitorSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-PropertyMonitorSuite">
+              </div> <!-- times-div-PropertyMonitorSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PropertyMonitorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PropertyMonitorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PropertyMonitorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.propertymonitor.tests.ProjectSearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriverAndReports</span>
+                <br/>
+                <span class="ignored-method-name">quitDriverAndFlushReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PropertyMonitorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propertymonitor.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeDriverAndReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27551 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.propertymonitor.tests.LoginPageTest.testValidLoginLandsOnProjectSearch())</span>
+                <span class="method-start">41194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLoginLandsOnProjectSearch</span>
+                <span class="method-start">41358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureResult([TestResult name=testValidLoginLandsOnProjectSearch status=SUCCESS method=LoginPageTest.testValidLog...)</span>
+                <span class="method-start">41555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.propertymonitor.tests.LoginPageTest.verifyProjectSearchUrlLoaded())</span>
+                <span class="method-start">41586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProjectSearchUrlLoaded</span>
+                <span class="method-start">41589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureResult([TestResult name=verifyProjectSearchUrlLoaded status=SUCCESS method=LoginPageTest.verifyProjectSearc...)</span>
+                <span class="method-start">41664 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propertymonitor.tests.ProjectSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupProjectSearch</span>
+                <span class="method-start">41677 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">startTestLog(public void com.propertymonitor.tests.ProjectSearchTest.testSearchLocationUpdatesProjectCount())</span>
+                <span class="method-start">41739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchLocationUpdatesProjectCount</span>
+                <span class="method-start">41752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testSearchLocationUpdatesProjectCount status=SUCCESS method=ProjectSearchTest.testS...)</span>
+                <span class="method-start">54497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTestLog(public void com.propertymonitor.tests.ProjectSearchTest.testClearLocationUpdatesProjectCount() throw...)</span>
+                <span class="method-start">54501 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClearLocationUpdatesProjectCount</span>
+                <span class="method-start">54503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testClearLocationUpdatesProjectCount status=SUCCESS method=ProjectSearchTest.testCl...)</span>
+                <span class="method-start">59309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTestLog(public void com.propertymonitor.tests.ProjectSearchTest.testSelectApartmentUnitType() throws java.la...)</span>
+                <span class="method-start">59313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectApartmentUnitType</span>
+                <span class="method-start">59314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testSelectApartmentUnitType status=SUCCESS method=ProjectSearchTest.testSelectApart...)</span>
+                <span class="method-start">66505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTestLog(public void com.propertymonitor.tests.ProjectSearchTest.testUnselectApartmentUnitType() throws java....)</span>
+                <span class="method-start">66507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUnselectApartmentUnitType</span>
+                <span class="method-start">66508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testUnselectApartmentUnitType status=SUCCESS method=ProjectSearchTest.testUnselectA...)</span>
+                <span class="method-start">71658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTestLog(public void com.propertymonitor.tests.ProjectSearchTest.testUncheckUpcomingSaleStatus() throws java....)</span>
+                <span class="method-start">71660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUncheckUpcomingSaleStatus</span>
+                <span class="method-start">71661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testUncheckUpcomingSaleStatus status=SUCCESS method=ProjectSearchTest.testUncheckUp...)</span>
+                <span class="method-start">78712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTestLog(public void com.propertymonitor.tests.ProjectSearchTest.testSelectUpcomingSaleStatus())</span>
+                <span class="method-start">78715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectUpcomingSaleStatus</span>
+                <span class="method-start">78716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testSelectUpcomingSaleStatus status=SUCCESS method=ProjectSearchTest.testSelectUpco...)</span>
+                <span class="method-start">82103 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propertymonitor.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitDriverAndFlushReports</span>
+                <span class="method-start">82145 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
