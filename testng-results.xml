@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-22T01:01:06 IST" name="Default suite" finished-at="2025-05-22T01:02:06 IST" duration-ms="59733">
+  <suite started-at="2025-05-22T01:12:15 IST" name="Default suite" finished-at="2025-05-22T01:13:20 IST" duration-ms="65212">
     <groups>
     </groups>
-    <test started-at="2025-05-22T01:01:06 IST" name="Default test" finished-at="2025-05-22T01:02:06 IST" duration-ms="59733">
+    <test started-at="2025-05-22T01:12:15 IST" name="Default test" finished-at="2025-05-22T01:13:20 IST" duration-ms="65212">
       <class name="com.propertymonitor.tests.ProjectSearchTest">
-        <test-method is-config="true" signature="initializeDriverAndReports()[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:00:39 IST" name="initializeDriverAndReports" finished-at="2025-05-22T01:01:06 IST" duration-ms="27502" status="PASS">
+        <test-method is-config="true" signature="initializeDriverAndReports()[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:11:45 IST" name="initializeDriverAndReports" finished-at="2025-05-22T01:12:15 IST" duration-ms="29423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriverAndReports -->
-        <test-method is-config="true" signature="setupProjectSearch()[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:17 IST" name="setupProjectSearch" finished-at="2025-05-22T01:01:17 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setupProjectSearch()[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:28 IST" name="setupProjectSearch" finished-at="2025-05-22T01:12:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupProjectSearch -->
-        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:17 IST" name="startTestLog" finished-at="2025-05-22T01:01:17 IST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:28 IST" name="startTestLog" finished-at="2025-05-22T01:12:28 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestLog -->
-        <test-method signature="testSearchLocationUpdatesProjectCount()[pri:1, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:17 IST" name="testSearchLocationUpdatesProjectCount" finished-at="2025-05-22T01:01:34 IST" depends-on-methods="com.propertymonitor.tests.LoginPageTest.testValidLoginLandsOnProjectSearch" duration-ms="17308" status="PASS">
+        <test-method signature="testSearchLocationUpdatesProjectCount()[pri:1, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:28 IST" name="testSearchLocationUpdatesProjectCount" finished-at="2025-05-22T01:12:45 IST" depends-on-methods="com.propertymonitor.tests.LoginPageTest.testValidLoginLandsOnProjectSearch" duration-ms="17294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchLocationUpdatesProjectCount -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:34 IST" name="logTestResult" finished-at="2025-05-22T01:01:34 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:45 IST" name="logTestResult" finished-at="2025-05-22T01:12:45 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:34 IST" name="startTestLog" finished-at="2025-05-22T01:01:34 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:45 IST" name="startTestLog" finished-at="2025-05-22T01:12:45 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestLog -->
-        <test-method signature="testClearLocationUpdatesProjectCount()[pri:2, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:34 IST" name="testClearLocationUpdatesProjectCount" finished-at="2025-05-22T01:01:39 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testSearchLocationUpdatesProjectCount" duration-ms="5402" status="PASS">
+        <test-method signature="testClearLocationUpdatesProjectCount()[pri:2, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:45 IST" name="testClearLocationUpdatesProjectCount" finished-at="2025-05-22T01:12:52 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testSearchLocationUpdatesProjectCount" duration-ms="6683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClearLocationUpdatesProjectCount -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:39 IST" name="logTestResult" finished-at="2025-05-22T01:01:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:52 IST" name="logTestResult" finished-at="2025-05-22T01:12:52 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:39 IST" name="startTestLog" finished-at="2025-05-22T01:01:39 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:52 IST" name="startTestLog" finished-at="2025-05-22T01:12:52 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestLog -->
-        <test-method signature="testSelectApartmentUnitType()[pri:3, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:39 IST" name="testSelectApartmentUnitType" finished-at="2025-05-22T01:01:48 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testClearLocationUpdatesProjectCount" duration-ms="8703" status="PASS">
+        <test-method signature="testSelectApartmentUnitType()[pri:3, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:12:52 IST" name="testSelectApartmentUnitType" finished-at="2025-05-22T01:13:01 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testClearLocationUpdatesProjectCount" duration-ms="9216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectApartmentUnitType -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:48 IST" name="logTestResult" finished-at="2025-05-22T01:01:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:01 IST" name="logTestResult" finished-at="2025-05-22T01:13:01 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:48 IST" name="startTestLog" finished-at="2025-05-22T01:01:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:01 IST" name="startTestLog" finished-at="2025-05-22T01:13:01 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,11 +104,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestLog -->
-        <test-method signature="testUnselectApartmentUnitType()[pri:4, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:48 IST" name="testUnselectApartmentUnitType" finished-at="2025-05-22T01:01:55 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testSelectApartmentUnitType" duration-ms="6502" status="PASS">
+        <test-method signature="testUnselectApartmentUnitType()[pri:4, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:01 IST" name="testUnselectApartmentUnitType" finished-at="2025-05-22T01:13:08 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testSelectApartmentUnitType" duration-ms="6737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUnselectApartmentUnitType -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:55 IST" name="logTestResult" finished-at="2025-05-22T01:01:55 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:08 IST" name="logTestResult" finished-at="2025-05-22T01:13:08 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:55 IST" name="startTestLog" finished-at="2025-05-22T01:01:55 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:08 IST" name="startTestLog" finished-at="2025-05-22T01:13:08 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -130,11 +130,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestLog -->
-        <test-method signature="testUncheckUpcomingSaleStatus()[pri:5, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:01:55 IST" name="testUncheckUpcomingSaleStatus" finished-at="2025-05-22T01:02:02 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testUnselectApartmentUnitType" duration-ms="7257" status="PASS">
+        <test-method signature="testUncheckUpcomingSaleStatus()[pri:5, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:08 IST" name="testUncheckUpcomingSaleStatus" finished-at="2025-05-22T01:13:15 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testUnselectApartmentUnitType" duration-ms="7536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUncheckUpcomingSaleStatus -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:02:02 IST" name="logTestResult" finished-at="2025-05-22T01:02:02 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:15 IST" name="logTestResult" finished-at="2025-05-22T01:13:15 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:02:02 IST" name="startTestLog" finished-at="2025-05-22T01:02:02 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startTestLog(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:15 IST" name="startTestLog" finished-at="2025-05-22T01:13:15 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,11 +156,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestLog -->
-        <test-method signature="testSelectUpcomingSaleStatus()[pri:6, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:02:02 IST" name="testSelectUpcomingSaleStatus" finished-at="2025-05-22T01:02:06 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testUncheckUpcomingSaleStatus" duration-ms="3937" status="PASS">
+        <test-method signature="testSelectUpcomingSaleStatus()[pri:6, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:15 IST" name="testSelectUpcomingSaleStatus" finished-at="2025-05-22T01:13:20 IST" depends-on-methods="com.propertymonitor.tests.ProjectSearchTest.testUncheckUpcomingSaleStatus" duration-ms="4712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectUpcomingSaleStatus -->
-        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:02:06 IST" name="logTestResult" finished-at="2025-05-22T01:02:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:20 IST" name="logTestResult" finished-at="2025-05-22T01:13:20 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,17 +171,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestResult -->
-        <test-method is-config="true" signature="quitDriverFlushReportsUploadAndEmail()[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:02:06 IST" name="quitDriverFlushReportsUploadAndEmail" finished-at="2025-05-22T01:02:09 IST" duration-ms="3117" status="PASS">
+        <test-method is-config="true" signature="quitDriverFlushReportsUploadAndEmail()[pri:0, instance:com.propertymonitor.tests.ProjectSearchTest@31f9b85e]" started-at="2025-05-22T01:13:20 IST" name="quitDriverFlushReportsUploadAndEmail" finished-at="2025-05-22T01:13:36 IST" duration-ms="15365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriverFlushReportsUploadAndEmail -->
       </class> <!-- com.propertymonitor.tests.ProjectSearchTest -->
       <class name="com.propertymonitor.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:01:06 IST" name="setup" finished-at="2025-05-22T01:01:16 IST" duration-ms="9577" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:12:15 IST" name="setup" finished-at="2025-05-22T01:12:28 IST" duration-ms="12643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:01:16 IST" name="startExtent" finished-at="2025-05-22T01:01:16 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:12:28 IST" name="startExtent" finished-at="2025-05-22T01:12:28 IST" duration-ms="34" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -192,11 +192,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testValidLoginLandsOnProjectSearch()[pri:1, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:01:16 IST" name="testValidLoginLandsOnProjectSearch" finished-at="2025-05-22T01:01:16 IST" duration-ms="155" status="PASS">
+        <test-method signature="testValidLoginLandsOnProjectSearch()[pri:1, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:12:28 IST" name="testValidLoginLandsOnProjectSearch" finished-at="2025-05-22T01:12:28 IST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLoginLandsOnProjectSearch -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:01:16 IST" name="captureResult" finished-at="2025-05-22T01:01:16 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:12:28 IST" name="captureResult" finished-at="2025-05-22T01:12:28 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:02:06 IST" name="startExtent" finished-at="2025-05-22T01:02:06 IST" duration-ms="2" status="PASS">
+        <test-method signature="verifyProjectSearchUrlLoaded()[pri:2, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:13:20 IST" name="verifyProjectSearchUrlLoaded" finished-at="2025-05-22T01:13:20 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectSearchUrlLoaded -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:13:20 IST" name="startExtent" finished-at="2025-05-22T01:13:20 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -218,11 +222,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="verifyProjectSearchUrlLoaded()[pri:2, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:02:06 IST" name="verifyProjectSearchUrlLoaded" finished-at="2025-05-22T01:02:06 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProjectSearchUrlLoaded -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:02:06 IST" name="captureResult" finished-at="2025-05-22T01:02:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.propertymonitor.tests.LoginPageTest@ba54932]" started-at="2025-05-22T01:13:20 IST" name="captureResult" finished-at="2025-05-22T01:13:20 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
