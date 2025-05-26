@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Property Monitor Test Suite</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 26, 2025 05:55:05 pm</span></a>
+<a href="#"><span class="badge badge-primary">May 26, 2025 06:01:30 pm</span></a>
 </li>
 </ul>
 </div>
@@ -87,7 +87,7 @@
           <div class="test-detail">
             <p class="name">ProjectSearchTest - test45_sortOptionsChangeProjectOrder</p>
             <p class="text-sm">
-              <span>5:55:30 pm</span> / <span>00:00:00:000</span>
+              <span>6:01:50 pm</span> / <span>00:00:00:000</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -96,8 +96,8 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">ProjectSearchTest - test45_sortOptionsChangeProjectOrder</h5>
-<span class='badge badge-success'>05.26.2025 5:55:30 pm</span>
-<span class='badge badge-danger'>05.26.2025 5:55:30 pm</span>
+<span class='badge badge-success'>05.26.2025 6:01:50 pm</span>
+<span class='badge badge-danger'>05.26.2025 6:01:50 pm</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -114,7 +114,7 @@
           <div class="test-detail">
             <p class="name">🧹 Test Case 43: Verify each sort option updates the project list order</p>
             <p class="text-sm">
-              <span>5:55:30 pm</span> / <span>00:00:12:430</span>
+              <span>6:01:50 pm</span> / <span>00:00:15:971</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -123,9 +123,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">🧹 Test Case 43: Verify each sort option updates the project list order</h5>
-<span class='badge badge-success'>05.26.2025 5:55:30 pm</span>
-<span class='badge badge-danger'>05.26.2025 5:55:42 pm</span>
-<span class='badge badge-default'>00:00:12:430</span>
+<span class='badge badge-success'>05.26.2025 6:01:50 pm</span>
+<span class='badge badge-danger'>05.26.2025 6:02:06 pm</span>
+<span class='badge badge-default'>00:00:15:971</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -137,21 +137,19 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>5:55:34 pm</td>
-        <td>
-          👉 Trying sort option: Recently Added
-        </td>
-      </tr>
-      <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>5:55:42 pm</td>
+        <td>6:02:06 pm</td>
         <td>
-          <textarea readonly class="code-block">java.lang.AssertionError: ❌ Project list did not change after selecting: Recently Added expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.propertymonitor.tests.ProjectSearchTest.test45_sortOptionsChangeProjectOrder(ProjectSearchTest.java:878)
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //label[contains(@class,'chakra-radio')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.4, moz:accessibilityChecks: false, moz:buildID: 20250517143237, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.5.0, moz:processID: 16784, moz:profile: /var/folders/lq/n2dxsxc55_1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 643ed213-bcf7-4997-a689-2cb6cb0c103e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.propertymonitor.pages.ProjectSearchPage.getSortOptionLabels(ProjectSearchPage.java:323)
+	at com.propertymonitor.tests.ProjectSearchTest.test45_sortOptionsChangeProjectOrder(ProjectSearchTest.java:858)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -211,12 +209,12 @@
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">java.lang.AssertionError</p>
+<p class="name">org.openqa.selenium.TimeoutException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>java.lang.AssertionError</h4>
+<h4>org.openqa.selenium.TimeoutException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -230,7 +228,7 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>17:55:30 pm</td>
+<td>18:01:50 pm</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>🧹 Test Case 43: Verify each sort option updates the project list order</a>
 </td>
@@ -252,13 +250,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 26, 2025 05:55:05 pm</h3>
+<h3>May 26, 2025 06:01:30 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 26, 2025 05:55:48 pm</h3>
+<h3>May 26, 2025 06:02:12 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -311,8 +309,8 @@
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='50%'><b>1</b> events failed,
-<b data-tooltip='%'>1</b> others
+<small data-tooltip='100%'><b>1</b> events failed,
+<b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -328,7 +326,7 @@
 </div></div>
 <script>
 var timeline = {
-"ProjectSearchTest - test45_sortOptionsChangeProjectOrder":0,"🧹 Test Case 43: Verify each sort option updates the project list order":12.43
+"ProjectSearchTest - test45_sortOptionsChangeProjectOrder":0,"🧹 Test Case 43: Verify each sort option updates the project list order":15.971
 };
 </script>
 <div class="row">
@@ -376,7 +374,7 @@ passEvents: 0,
 failEvents: 1,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 1
+infoEvents: 0
 };
 </script>        </div>
       </div>
