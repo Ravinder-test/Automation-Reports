@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Property Monitor Test Suite</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 26, 2025 07:38:11 pm</span></a>
+<a href="#"><span class="badge badge-primary">May 26, 2025 08:08:59 pm</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -67,6 +72,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,9 +85,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">ProjectSearchTest - test44_VerifyProjectListUpdatesOnAllSortOptions</p>
+            <p class="name">ProjectSearchTest - test45_SubmitFeedbackForm</p>
             <p class="text-sm">
-              <span>7:38:31 pm</span> / <span>00:00:00:000</span>
+              <span>8:09:16 pm</span> / <span>00:00:00:000</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,9 +95,9 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">ProjectSearchTest - test44_VerifyProjectListUpdatesOnAllSortOptions</h5>
-<span class='badge badge-success'>05.26.2025 7:38:31 pm</span>
-<span class='badge badge-danger'>05.26.2025 7:38:31 pm</span>
+<h5 class="test-status text-pass">ProjectSearchTest - test45_SubmitFeedbackForm</h5>
+<span class='badge badge-success'>05.26.2025 8:09:16 pm</span>
+<span class='badge badge-danger'>05.26.2025 8:09:16 pm</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
@@ -101,25 +107,25 @@
 </div>
 </div>          </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">🧮 Test Case 44: Verify project list updates after selecting each sort option</p>
+            <p class="name">📝 Test Case 45: Verify feedback form submission with thank-you message</p>
             <p class="text-sm">
-              <span>7:38:31 pm</span> / <span>00:00:15:056</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>8:09:16 pm</span> / <span>00:00:12:878</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">🧮 Test Case 44: Verify project list updates after selecting each sort option</h5>
-<span class='badge badge-success'>05.26.2025 7:38:31 pm</span>
-<span class='badge badge-danger'>05.26.2025 7:38:46 pm</span>
-<span class='badge badge-default'>00:00:15:056</span>
+<h5 class="test-status text-fail">📝 Test Case 45: Verify feedback form submission with thank-you message</h5>
+<span class='badge badge-success'>05.26.2025 8:09:16 pm</span>
+<span class='badge badge-danger'>05.26.2025 8:09:29 pm</span>
+<span class='badge badge-default'>00:00:12:878</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -132,820 +138,55 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>7:38:31 pm</td>
+        <td>8:09:16 pm</td>
         <td>
-          🔘 Selecting sort option: Earliest Completion
+          🔘 Clicking Feedback button and entering answers.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:38:37 pm</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:09:29 pm</td>
         <td>
-          📋 Project list after selecting 'Earliest Completion': [Oct 2009
-Sold Out
-Hamilton Residency
-Business Bay
-Business Bay
-Deyaar
-Deyaar
-Prices
-from (
-):
-1 B/R
-996 K
-3 B/R
-2.49 M, Nov 2009
-On Sale
-Zabeel Saray Royal Villas
-Palm Jumeirah
-Palm Jumeirah
-H&H Investment and Development
-H&H Investment and Development
-Prices
-from (
-):
-4 B/R
-TBA
-5 B/R
-TBA
-50% down payment, Jul 2011
-Upcoming
-Ravinder Singh
-Jumeirah Lakes Towers
-Jumeirah Lakes Towers
-Prescott Real Estate Development L.L.C
-Prescott Real Estate Development L.L.C
-Units and prices are not available
-20% down payment, Jan 2015
-On Sale
-Marriot Executive Residences
-Dubai Science Park (DuBiotech)
-Dubai Science Park (DuBiotech)
-MAG Group
-MAG Group
-Units and prices are not available
-30% down payment, Jan 2020
-Sold Out
-Palm Villas
-Palm Jumeirah
-Palm Jumeirah
-Ellington Properties
-Ellington Properties
-Units and prices are not available, Aug 2021
-Sold Out
-Camelia
-Arabian Ranches 2
-Arabian Ranches 2
-DAMAC Properties
-DAMAC Properties
-Prices
-from (
-):
-3 B/R
-TBA
-4 B/R
-TBA, Images are not available yet
-Dec 2021
-On Sale
-Golden Wood Views I
-Jumeirah Village Triangle
-Jumeirah Village Triangle
-Golden Wood Real Estate Development
-Golden Wood Real Estate Development
-Prices
-from (
-):
-1 B/R
-835 K
-2 B/R
-1.31 M
-3 B/R
-1.91 M, Jan 2022
-On Sale
-Upside Living
-Business Bay
-Business Bay
-SRG Holding
-SRG Holding
-Prices
-from (
-):
-Studio
-962 K
-1 B/R
-1.52 M
-5% down payment, Jan 2022
-On Sale
-ANWA
-Dubai Maritime City
-Dubai Maritime City
-Omniyat
-Omniyat
-Prices
-from (
-):
-Studio
-1.33 M
-1 B/R
-1.94 M
-2 B/R
-3.47 M
-4+ B/R
-9.63 M, Jun 2022
-Sold Out
-The Nook 1
-Wasl Gate
-Wasl Gate
-Wasl
-Wasl
-Prices
-from (
-):
-Studio
-465 K
-1 B/R
-710 K
-2 B/R
-900 K
-3 B/R
-1.13 M, Images are not available yet
-Jun 2022
-On Sale
-1 Residences
-Al Kifaf
-Al Kifaf
-Wasl
-Wasl
-Prices
-from (
-):
-1 B/R
-TBA
-2 B/R
-TBA
-3 B/R
-TBA
-10% down payment, Jul 2022
-On Sale
-Stage Ravinder
-Dubai Marina
-Dubai Marina
-MS Homes Developers
-MS Homes Developers
-Units and prices are not available
-20% down payment, Images are not available yet
-Aug 2022
-On Sale
-Myka Residence
-Dubai Production City
-Dubai Production City
-Myka Luxe Real Estate Development
-Myka Luxe Real Estate Development
-Prices
-from (
-):
-Studio
-536 K
-1 B/R
-1.07 M
-2 B/R
-1.40 M, Sep 2022
-Sold Out
-Zubaida Residency
-Majan
-Majan
-Zubaida Real Estate
-Zubaida Real Estate
-Units and prices are not available, Sep 2022
-Sold Out
-Binghatti Rose
-Jumeirah Village Circle
-Jumeirah Village Circle
-Binghatti
-Binghatti
-Prices
-from (
-):
-1 B/R
-669 K
-2 B/R
-939 K
-3 B/R
-1.19 M, Sep 2022
-Sold Out
-Prime Townhouses
-Al Furjan
-Al Furjan
-Prescott Real Estate Development L.L.C
-Prescott Real Estate Development L.L.C
-Prices
-from (
-):
-4 B/R
-TBA, Sep 2022
-On Sale
-Residence 110
-Business Bay
-Business Bay
-Select Group
-Select Group
-Prices
-from (
-):
-Studio
-2.84 M
-1 B/R
-1.82 M
-2 B/R
-2.24 M
-3 B/R
-2.87 M
-25% down payment, Oct 2022
-Pre-Sale (EOI)
-Check on V2
-Dubai Marina
-Dubai Marina
-Syndicate Developments
-Syndicate Developments
-Units and prices are not available
-50% down payment, Nov 2022
-On Sale
-Melrose Estates
-DAMAC Hills
-DAMAC Hills
-DAMAC Properties
-DAMAC Properties
-Units and prices are not available]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:38:37 pm</td>
-        <td>
-          ✅ Project list updated after selecting 'Earliest Completion'
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:38:37 pm</td>
-        <td>
-          🔘 Selecting sort option: Latest Completion
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:38:42 pm</td>
-        <td>
-          📋 Project list after selecting 'Latest Completion': [Dec 2029
-Pre-Sale (EOI)
-Skyscape Altius
-Sobha Hartland II
-Sobha Hartland II
-Sobha Group
-Sobha Group
-Units and prices are not available
-20% down payment, Dec 2029
-On Sale
-Skyscape Aura
-Sobha Hartland II
-Sobha Hartland II
-Sobha Group
-Sobha Group
-Prices
-from (
-):
-1 B/R
-1.71 M
-2 B/R
-2.02 M
-3 B/R
-3.71 M
-20% down payment, Sep 2029
-On Sale
-Marina Cove
-Dubai Marina
-Dubai Marina
-Emaar
-Emaar
-Prices
-from (
-):
-1 B/R
-2.03 M
-2 B/R
-2.95 M
-3 B/R
-4.05 M
-4 B/R
-6.67 M
-10% down payment, Sep 2029
-Sold Out
-Address Residences Zabeel
-Zabeel
-Zabeel
-Emaar
-Emaar
-Prices
-from (
-):
-1 B/R
-2.02 M
-2 B/R
-2.99 M
-3 B/R
-4.32 M
-4+ B/R
-13.3 M, Apr 2029
-On Sale
-Tiger Sky Tower
-Business Bay
-Business Bay
-Tiger Properties
-Tiger Properties
-Prices
-from (
-):
-1 B/R
-2.28 M
-2 B/R
-3.58 M
-3 B/R
-4.71 M
-4+ B/R
-8.30 M
-20% down payment, Mar 2029
-On Sale
-Greenville 2
-Emaar South
-Emaar South
-Emaar
-Emaar
-Prices
-from (
-):
-3 B/R
-TBA
-4 B/R
-TBA
-10% down payment, Mar 2029
-On Sale
-Greenville
-Emaar South
-Emaar South
-Emaar
-Emaar
-Prices
-from (
-):
-3 B/R
-TBA
-4 B/R
-TBA
-10% down payment, Mar 2029
-On Sale
-Palace Residences Creek Blue
-Dubai Creek Harbour
-Dubai Creek Harbour
-Emaar
-Emaar
-Prices
-from (
-):
-1 B/R
-1.85 M
-2 B/R
-2.91 M
-3 B/R
-4.94 M
-10% down payment, Images are not available yet
-Feb 2029
-Sold Out
-Address Residences | Dubai Hills Estate
-Dubai Hills Estate
-Dubai Hills Estate
-Emaar
-Emaar
-Prices
-from (
-):
-1 B/R
-1.85 M
-2 B/R
-2.25 M
-3 B/R
-3.97 M, Feb 2029
-On Sale
-The Sapphire (DAMAC City 2)
-Al Wasl
-Al Wasl
-DAMAC Properties
-DAMAC Properties
-Prices
-from (
-):
-1 B/R
-2.16 M
-2 B/R
-3.27 M
-3 B/R
-5.29 M
-4+ B/R
-56.4 M
-20% down payment, Jan 2029
-Sold Out
-Address Residences | Dubai Creek Harbour
-Dubai Creek Harbour
-Dubai Creek Harbour
-Emaar
-Emaar
-Prices
-from (
-):
-1 B/R
-1.98 M
-2 B/R
-2.63 M
-3 B/R
-5.36 M, Jan 2029
-On Sale
-Lavita
-The Oasis
-The Oasis
-Emaar
-Emaar
-Prices
-from (
-):
-6 B/R
-TBA
-7 B/R
-TBA
-10% down payment, Jan 2029
-On Sale
-Altus
-Dubai Creek Harbour
-Dubai Creek Harbour
-Emaar
-Emaar
-Prices
-from (
-):
-1 B/R
-1.61 M
-2 B/R
-2.24 M
-3 B/R
-3.77 M
-10% down payment, Dec 2028
-On Sale
-Verdana Empire (Verdana 7)
-Dubai Investments Park
-Dubai Investments Park
-Reportage Real Estate
-Reportage Real Estate
-Units and prices are not available
-10% down payment, Dec 2028
-On Sale
-Verdana 6
-Dubai Investments Park
-Dubai Investments Park
-Reportage Real Estate
-Reportage Real Estate
-Units and prices are not available
-10% down payment, Dec 2028
-On Sale
-Verdana 5
-Dubai Investments Park
-Dubai Investments Park
-Reportage Real Estate
-Reportage Real Estate
-Units and prices are not available
-10% down payment, Dec 2028
-On Sale
-Orbis | Tower B
-Motor City
-Motor City
-Sobha Group
-Sobha Group
-Prices
-from (
-):
-1 B/R
-981 K
-2 B/R
-1.92 M
-20% down payment, Dec 2028
-On Sale
-Greenridge
-Emaar South
-Emaar South
-Emaar
-Emaar
-Prices
-from (
-):
-3 B/R
-TBA
-4 B/R
-TBA
-10% down payment, Dec 2028
-On Sale
-Orbis | Tower G
-Motor City
-Motor City
-Sobha Group
-Sobha Group
-Units and prices are not available
-20% down payment]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:38:42 pm</td>
-        <td>
-          ✅ Project list updated after selecting 'Latest Completion'
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:38:42 pm</td>
-        <td>
-          🔘 Selecting sort option: Recently Added
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>7:38:46 pm</td>
-        <td>
-          📋 Project list after selecting 'Recently Added': [Apr 2025
-Pre-Sale (EOI)
-Ravi pre-release
-Discovery Gardens
-Discovery Gardens
-Delta Properties LLC
-Delta Properties LLC
-Prices
-from (
-):
-Studio
-TBA
-1 B/R
-123
-20% down payment, May 2025
-Pre-Sale (EOI)
-Ravi
-Jumeirah Village Triangle
-Jumeirah Village Triangle
-Abyaar Real Estate Development
-Abyaar Real Estate Development
-Prices
-from (
-):
-Studio
-TBA
-1 B/R
-85
-2 B/R
-34
-4+ B/R
-TBA
-30% down payment, Oct 2024
-Pre-Sale (EOI)
-Test Al Barari
-Al Barari
-Al Barari
-DHG Property
-DHG Property
-Prices
-from (
-):
-1 B/R
-TBA
-2 B/R
-TBA
-3 B/R
-TBA
-4 B/R
-TBA
-20% down payment, Images are not available yet
-Jun 2027
-Upcoming
-Azizi Wasel
-Azizi Venice
-Azizi Venice
-Units and prices are not available
-10% down payment, Jul 2022
-On Sale
-Stage Ravinder
-Dubai Marina
-Dubai Marina
-MS Homes Developers
-MS Homes Developers
-Units and prices are not available
-20% down payment, Oct 2022
-Pre-Sale (EOI)
-Check on V2
-Dubai Marina
-Dubai Marina
-Syndicate Developments
-Syndicate Developments
-Units and prices are not available
-50% down payment, Dec 2025
-On Sale
-Verdana Residence
-Dubai Investments Park
-Dubai Investments Park
-Reportage Real Estate
-Reportage Real Estate
-Prices
-from (
-):
-Studio
-TBA
-1 B/R
-2 K
-2 B/R
-TBA
-3 B/R
-TBA
-10% down payment, Jul 2011
-Upcoming
-Ravinder Singh
-Jumeirah Lakes Towers
-Jumeirah Lakes Towers
-Prescott Real Estate Development L.L.C
-Prescott Real Estate Development L.L.C
-Units and prices are not available
-20% down payment, Sep 2022
-Sold Out
-Zubaida Residency
-Majan
-Majan
-Zubaida Real Estate
-Zubaida Real Estate
-Units and prices are not available, Jun 2026
-Sold Out
-Verona
-DAMAC Hills 2
-DAMAC Hills 2
-DAMAC Properties
-DAMAC Properties
-Prices
-from (
-):
-4 B/R
-TBA, Images are not available yet
-Aug 2026
-On Sale
-Belle Reve
-Jumeirah Village Circle
-Jumeirah Village Circle
-Zimaya Properties
-Zimaya Properties
-Prices
-from (
-):
-Studio
-599 K
-1 B/R
-867 K
-2 B/R
-1.44 M
-3 B/R
-2.50 M
-20% down payment, Dec 2025
-On Sale
-Zuha Villas
-World Islands
-World Islands
-Zaya Real Estate Development
-Zaya Real Estate Development
-Prices
-from (
-):
-6 B/R
-2 K
-5% down payment, Dec 2026
-On Sale
-Laya Courtyard
-Dubai Studio City
-Dubai Studio City
-Akshara Global Real Estate Development LLC
-Akshara Global Real Estate Development LLC
-Prices
-from (
-):
-Studio
-681 K
-1 B/R
-833 K
-10% down payment, Mar 2027
-On Sale
-Tonino Lamborghini Residences
-Nad Al Sheba
-Nad Al Sheba
-Gulf Land Property Developers
-Gulf Land Property Developers
-Prices
-from (
-):
-1 B/R
-1.74 M
-2 B/R
-2.65 M
-3 B/R
-3.31 M
-20% down payment, Dec 2025
-On Sale
-Trafford Residence
-Dubai South Residential District
-Dubai South Residential District
-DV8 Development
-DV8 Development
-Units and prices are not available
-10% down payment, Images are not available yet
-Dec 2025
-On Sale
-Trillium Heights
-Al Satwa
-Al Satwa
-Grenorbit Development
-Grenorbit Development
-Prices
-from (
-):
-Studio
-1.02 M
-1 B/R
-1.53 M
-10% down payment, Images are not available yet
-Feb 2027
-On Sale
-Alfal Residence
-Jumeirah Village Circle
-Jumeirah Village Circle
-Dubuild
-Dubuild
-Prices
-from (
-):
-Studio
-468 K
-1 B/R
-755 K
-2 B/R
-1.22 M
-20% down payment, Dec 2027
-On Sale
-Symphony (Tower A) | Takaya
-Motor City
-Motor City
-Union Properties
-Union Properties
-Prices
-from (
-):
-Studio
-693 K
-1 B/R
-1.17 M
-2 B/R
-1.72 M
-4+ B/R
-3.53 M
-10% down payment, Dec 2027
-On Sale
-W Residences | Dubai Harbour
-Dubai Harbour
-Dubai Harbour
-Arada
-Arada
-Prices
-from (
-):
-1 B/R
-4.14 M
-2 B/R
-5.25 M
-3 B/R
-7.14 M
-4+ B/R
-14.1 M
-10% down payment]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:38:46 pm</td>
-        <td>
-          ✅ Project list updated after selecting 'Recently Added'
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>7:38:46 pm</td>
-        <td>
-          Test passed
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@data-test-id='aans1'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.15'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.4, moz:accessibilityChecks: false, moz:buildID: 20250517143237, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.5.0, moz:processID: 18192, moz:profile: /var/folders/lq/n2dxsxc55_1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 164571bb-e3ee-4f2d-9efe-35d1ab3fe2d4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.propertymonitor.pages.ProjectSearchPage.submitFeedback(ProjectSearchPage.java:355)
+	at com.propertymonitor.tests.ProjectSearchTest.test45_SubmitFeedbackForm(ProjectSearchTest.java:898)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -962,30 +203,79 @@ from (
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="container-fluid p-4 view dashboard-view">
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:09:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>📝 Test Case 45: Verify feedback form submission with thank-you message</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 26, 2025 07:38:11 pm</h3>
+<h3>May 26, 2025 08:08:59 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 26, 2025 07:38:52 pm</h3>
+<h3>May 26, 2025 08:09:35 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>2</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -1001,12 +291,12 @@ from (
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>2</b> tests passed
+<div><small data-tooltip='50%'>
+<b>1</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='50%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1024,10 +314,10 @@ from (
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='40%'><b>4</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>6</b> others
+<small data-tooltip='50%'><b>1</b> events failed,
+<b data-tooltip='%'>1</b> others
 </small>
 </div>
 </div>
@@ -1043,7 +333,7 @@ from (
 </div></div>
 <script>
 var timeline = {
-"ProjectSearchTest - test44_VerifyProjectListUpdatesOnAllSortOptions":0,"🧮 Test Case 44: Verify project list updates after selecting each sort option":15.056
+"ProjectSearchTest - test45_SubmitFeedbackForm":0,"📝 Test Case 45: Verify feedback form submission with thank-you message":12.878
 };
 </script>
 <div class="row">
@@ -1070,8 +360,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
-failParent: 0,
+passParent: 1,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -1087,11 +377,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 4,
-failEvents: 0,
+passEvents: 0,
+failEvents: 1,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 6
+infoEvents: 1
 };
 </script>        </div>
       </div>
