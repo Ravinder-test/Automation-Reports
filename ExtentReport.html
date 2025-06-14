@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Property Monitor Test Suite</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 15, 2025 12:17:28 am</span></a>
+<a href="#"><span class="badge badge-primary">Jun 15, 2025 12:19:46 am</span></a>
 </li>
 </ul>
 </div>
@@ -72,6 +72,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,7 +80,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">ProjectDetailPage</a>
+<a class="dropdown-item" href="#">ProjectSearchPage</a><a class="dropdown-item" href="#">LoginPage</a><a class="dropdown-item" href="#">ProjectDetailPage</a>
 </ul>
 </li>
 </ul>
@@ -87,12 +88,12 @@
       <ul class="test-list-item">
         <li class="test-item"  status="pass" test-id="1"
           author=""
-          tag="ProjectDetailPage"
+          tag="LoginPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Login Page</p>
             <p class="text-sm">
-              <span>12:17:42 am</span> / <span>00:00:10:423</span>
+              <span>12:20:02 am</span> / <span>00:00:00:086</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -100,16 +101,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:17:42 am</span>
-<span class='badge badge-danger'>06.15.2025 12:17:53 am</span>
-<span class='badge badge-default'>00:00:10:423</span>
+<h5 class="test-status text-pass">📄 Login Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:02 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:03 am</span>
+<span class='badge badge-default'>00:00:00:086</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LoginPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -117,28 +118,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:42 am</td>
+        <td>12:20:03 am</td>
         <td>
-          🔍 Test Case: Verifies that user can open the Project Detail page in a new tab.
+          🔍 Test Case: Verifies that a user with valid login details successfully logs in and lands on the correct page.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
-          ✅ Successfully navigated to the Project Detail page.
+          Checking if the user is redirected to the Project Search page after logging in.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:03 am</td>
+        <td>
+          Current page URL is: https://pmiq.stage.propertymonitor.com/projects/project-search?sidebar=true&sort=recent
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
-          🎯 Project Detail page opened in a new tab and verified successfully.
+          ✅ Login successful. The user landed on the Project Search page as expected.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -150,12 +158,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="2"
           author=""
-          tag="ProjectDetailPage"
+          tag="LoginPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Login Page</p>
             <p class="text-sm">
-              <span>12:17:53 am</span> / <span>00:00:00:070</span>
+              <span>12:20:03 am</span> / <span>00:00:00:020</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -163,16 +171,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:17:53 am</span>
-<span class='badge badge-danger'>06.15.2025 12:17:53 am</span>
-<span class='badge badge-default'>00:00:00:070</span>
+<h5 class="test-status text-pass">📄 Login Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:03 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:03 am</span>
+<span class='badge badge-default'>00:00:00:020</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LoginPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -180,28 +188,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
-          🔍 Test Case: Verifies that Property Details section is visible in Overview tab.
+          🔍 Test Case: Verifies that the Project Search page URL is correct after successful login.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
-          Checking visibility of Property Details section.
+          Confirming the Project Search page URL is correct.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:03 am</td>
+        <td>
+          Current page URL is: https://pmiq.stage.propertymonitor.com/projects/project-search?sidebar=true&sort=recent
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
-          ✅ Property Details section is visible.
+          ✅ The current URL matches the expected Project Search page URL.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -213,12 +228,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="3"
           author=""
-          tag="ProjectDetailPage"
+          tag="ProjectSearchPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Project Search Page</p>
             <p class="text-sm">
-              <span>12:17:53 am</span> / <span>00:00:00:542</span>
+              <span>12:20:03 am</span> / <span>00:00:10:049</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -226,16 +241,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:17:53 am</span>
-<span class='badge badge-danger'>06.15.2025 12:17:53 am</span>
-<span class='badge badge-default'>00:00:00:542</span>
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:03 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:13 am</span>
+<span class='badge badge-default'>00:00:10:049</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -243,28 +258,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:03 am</td>
         <td>
-          🔍 Test Case: Verifies that Map is visible after clicking Map tab.
+          🔍 Test Case: Verifies that searching for a specific location updates the displayed project count.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:06 am</td>
         <td>
-          Checking visibility of Map on Map tab.
+          Initial project count before searching: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:13 am</td>
+        <td>
+          Project count after searching for 'Jumeirah Beach': 2 from 995 projects
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:13 am</td>
         <td>
-          ✅ Map is visible after clicking Map tab.
+          ✅ The project count successfully updated after searching for 'Jumeirah Beach'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:13 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -276,12 +298,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="4"
           author=""
-          tag="ProjectDetailPage"
+          tag="ProjectSearchPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Project Search Page</p>
             <p class="text-sm">
-              <span>12:17:53 am</span> / <span>00:00:00:366</span>
+              <span>12:20:13 am</span> / <span>00:00:03:466</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -289,16 +311,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:17:53 am</span>
-<span class='badge badge-danger'>06.15.2025 12:17:54 am</span>
-<span class='badge badge-default'>00:00:00:366</span>
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:13 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:17 am</span>
+<span class='badge badge-default'>00:00:03:466</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -306,28 +328,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:53 am</td>
+        <td>12:20:13 am</td>
         <td>
-          🔍 Test Case: Verifies that images load correctly after clicking Images tab.
+          🔍 Test Case: Verifies that clearing the location filter reverts the project count.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:54 am</td>
+        <td>12:20:13 am</td>
         <td>
-          Checking if images are loaded.
+          Project count before clearing the location filter: 2 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:17 am</td>
+        <td>
+          Project count after clearing the location filter: 995 projects found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:54 am</td>
+        <td>12:20:17 am</td>
         <td>
-          ✅ Images loaded and visible after clicking Images tab.
+          ✅ The project count successfully updated after clearing the location filter.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:17:54 am</td>
+        <td>12:20:17 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -339,12 +368,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="5"
           author=""
-          tag="ProjectDetailPage"
+          tag="ProjectSearchPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Project Search Page</p>
             <p class="text-sm">
-              <span>12:17:54 am</span> / <span>00:00:16:442</span>
+              <span>12:20:17 am</span> / <span>00:00:04:837</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -352,16 +381,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:17:54 am</span>
-<span class='badge badge-danger'>06.15.2025 12:18:10 am</span>
-<span class='badge badge-default'>00:00:16:442</span>
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:17 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:22 am</span>
+<span class='badge badge-default'>00:00:04:837</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -369,28 +398,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:17:54 am</td>
+        <td>12:20:17 am</td>
         <td>
-          🔍 Test Case: Verifies Units and Layout tab elements like Topology, Floor Chart, Floor Plan Pictures, and Unit List Table.
+          🔍 Test Case: Verifies that selecting 'Apartment' as a unit type filters the project list correctly.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:10 am</td>
+        <td>12:20:17 am</td>
         <td>
-          Verifying all components on Units and Layouts tab.
+          Project count before selecting 'Apartment': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:22 am</td>
+        <td>
+          Project count after selecting 'Apartment': 708 from 995 projects
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:10 am</td>
+        <td>12:20:22 am</td>
         <td>
-          ✅ All elements on Units and Layouts tab are loaded and visible.
+          ✅ The project count updated after selecting 'Apartment' unit type.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:10 am</td>
+        <td>12:20:22 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -402,12 +438,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="6"
           author=""
-          tag="ProjectDetailPage"
+          tag="ProjectSearchPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Project Search Page</p>
             <p class="text-sm">
-              <span>12:18:10 am</span> / <span>00:00:00:653</span>
+              <span>12:20:22 am</span> / <span>00:00:04:818</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -415,16 +451,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:18:10 am</span>
-<span class='badge badge-danger'>06.15.2025 12:18:11 am</span>
-<span class='badge badge-default'>00:00:00:653</span>
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:22 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:26 am</span>
+<span class='badge badge-default'>00:00:04:818</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -432,28 +468,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:10 am</td>
+        <td>12:20:22 am</td>
         <td>
-          🔍 Test Case: Verifies that Payment Plan table is visible after clicking Payment Plans tab.
+          🔍 Test Case: Verifies that unselecting 'Apartment' unit type updates the project list.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:22 am</td>
         <td>
-          Checking if Payment Plan table is visible.
+          Project count before unselecting 'Apartment': 708 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:26 am</td>
+        <td>
+          Project count after unselecting 'Apartment': 995 projects found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:26 am</td>
         <td>
-          ✅ Payment Plan table is visible.
+          ✅ The project count updated after unselecting 'Apartment' unit type.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:26 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -465,12 +508,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="7"
           author=""
-          tag="ProjectDetailPage"
+          tag="ProjectSearchPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Project Search Page</p>
             <p class="text-sm">
-              <span>12:18:11 am</span> / <span>00:00:00:400</span>
+              <span>12:20:26 am</span> / <span>00:00:05:535</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -478,16 +521,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:18:11 am</span>
-<span class='badge badge-danger'>06.15.2025 12:18:11 am</span>
-<span class='badge badge-default'>00:00:00:400</span>
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:26 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:32 am</span>
+<span class='badge badge-default'>00:00:05:535</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -495,28 +538,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:26 am</td>
         <td>
-          🔍 Test Case: Verifies that Inspection table is visible after clicking Inspections tab.
+          🔍 Test Case: Verifies that unchecking 'Upcoming' sale status filters the project list.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:26 am</td>
         <td>
-          Checking if Inspection table is visible.
+          Project count before unchecking 'Upcoming' status: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:32 am</td>
+        <td>
+          Project count after unchecking 'Upcoming': 991 from 995 projects
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:32 am</td>
         <td>
-          ✅ Inspection table is visible.
+          ✅ The project count updated after unchecking 'Upcoming' status.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:32 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -528,12 +578,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="8"
           author=""
-          tag="ProjectDetailPage"
+          tag="ProjectSearchPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Project Search Page</p>
             <p class="text-sm">
-              <span>12:18:11 am</span> / <span>00:00:00:313</span>
+              <span>12:20:32 am</span> / <span>00:00:04:975</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -541,16 +591,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:18:11 am</span>
-<span class='badge badge-danger'>06.15.2025 12:18:11 am</span>
-<span class='badge badge-default'>00:00:00:313</span>
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:32 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:37 am</span>
+<span class='badge badge-default'>00:00:04:975</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -558,28 +608,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:32 am</td>
         <td>
-          🔍 Test Case: Verifies that Downloads tab opens and content is visible.
+          🔍 Test Case: Verifies that re-selecting 'Upcoming' sale status updates the project list.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:32 am</td>
         <td>
-          Checking if Downloads tab content is visible.
+          Project count before re-selecting 'Upcoming' status: 991 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:37 am</td>
+        <td>
+          Project count after re-selecting 'Upcoming': 995 projects found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:37 am</td>
         <td>
-          ✅ Downloads tab opened and content is visible.
+          ✅ The project count updated after re-selecting 'Upcoming' status.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:37 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -591,12 +648,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="9"
           author=""
-          tag="ProjectDetailPage"
+          tag="ProjectSearchPage"
           device="">
           <div class="test-detail">
-            <p class="name">📄 Project Detail Page</p>
+            <p class="name">📄 Project Search Page</p>
             <p class="text-sm">
-              <span>12:18:11 am</span> / <span>00:00:02:174</span>
+              <span>12:20:37 am</span> / <span>00:00:15:077</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -604,16 +661,16 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:18:11 am</span>
-<span class='badge badge-danger'>06.15.2025 12:18:14 am</span>
-<span class='badge badge-default'>00:00:02:174</span>
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:37 am</span>
+<span class='badge badge-danger'>06.15.2025 12:20:52 am</span>
+<span class='badge badge-default'>00:00:15:077</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -621,28 +678,56 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:37 am</td>
         <td>
-          🔍 Test Case: Verifies that submitting the feedback form displays a successful thank-you message.
+          🔍 Test Case: Verifies that selecting and then unselecting a developer changes the project count correctly.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:11 am</td>
+        <td>12:20:37 am</td>
         <td>
-          Clicking the 'Feedback' button and entering test messages.
+          Project count before selecting a developer: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:47 am</td>
+        <td>
+          Project count after selecting 'Aark Developer': 1 from 995 projects
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:14 am</td>
+        <td>12:20:47 am</td>
         <td>
-          ✅ Feedback submitted successfully. A thank-you message appeared.
+          ✅ The project count successfully updated after selecting 'Aark Developer'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:47 am</td>
+        <td>
+          Now attempting to unselect 'Aark Developer' and verify the project count changes again.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:52 am</td>
+        <td>
+          Project count after unselecting 'Aark Developer': 995 projects found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:14 am</td>
+        <td>12:20:52 am</td>
+        <td>
+          ✅ The project count successfully updated after unselecting 'Aark Developer'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:20:52 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -652,14 +737,2691 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="10"
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:20:52 am</span> / <span>00:00:12:291</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:20:52 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:04 am</span>
+<span class='badge badge-default'>00:00:12:291</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:20:52 am</td>
+        <td>
+          🔍 Test Case: Verifies that clicking 'Advance Filter' opens the advanced filter section.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:21:04 am</td>
+        <td>
+          The test failed: java.lang.AssertionError: ❌ The Advance Filter section is not visible. expected [true] but found [false]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:04 am</span> / <span>00:00:05:203</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:04 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:09 am</span>
+<span class='badge badge-default'>00:00:05:203</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:04 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting 'Completed' for construction status filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:04 am</td>
+        <td>
+          Project count before selecting 'Completed' status: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:09 am</td>
+        <td>
+          Project count after selecting 'Completed' status: 115 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:09 am</td>
+        <td>
+          ✅ The project count updated after selecting 'Completed' construction status.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:09 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:09 am</span> / <span>00:00:04:629</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:09 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:14 am</span>
+<span class='badge badge-default'>00:00:04:629</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:09 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting 'Completed' for construction status updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:10 am</td>
+        <td>
+          Project count before unselecting 'Completed' status: 115 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:14 am</td>
+        <td>
+          Project count after unselecting 'Completed' status: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:14 am</td>
+        <td>
+          ✅ The project count updated after unselecting 'Completed' construction status.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:14 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:14 am</span> / <span>00:00:04:597</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:14 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:19 am</span>
+<span class='badge badge-default'>00:00:04:597</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:14 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting '2025 (upcoming)' as a completion date filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:14 am</td>
+        <td>
+          Project count before selecting a completion date: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:19 am</td>
+        <td>
+          Project count after selecting '2025 (upcoming)': 198 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:19 am</td>
+        <td>
+          ✅ The project count updated after selecting '2025 (upcoming)' option.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:19 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:19 am</span> / <span>00:00:02:968</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:19 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:22 am</span>
+<span class='badge badge-default'>00:00:02:968</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:19 am</td>
+        <td>
+          🔍 Test Case: Verifies that clearing the selected completion date updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:19 am</td>
+        <td>
+          Project count before clearing the completion date: 198 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:22 am</td>
+        <td>
+          Project count after clearing the completion date: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:22 am</td>
+        <td>
+          ✅ The project count updated after clearing the completion date.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:22 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:22 am</span> / <span>00:00:04:560</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:22 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:26 am</span>
+<span class='badge badge-default'>00:00:04:560</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:22 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting 'Last 90 days' for sales start date filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:22 am</td>
+        <td>
+          Project count before selecting sales start date: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:26 am</td>
+        <td>
+          Project count after selecting 'Last 90 days' sales start date: 1 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:26 am</td>
+        <td>
+          ✅ The project count updated after selecting 'Last 90 days' sales start date.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:26 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:26 am</span> / <span>00:00:02:528</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:26 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:29 am</span>
+<span class='badge badge-default'>00:00:02:528</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:26 am</td>
+        <td>
+          🔍 Test Case: Verifies that clearing the sales start date updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:26 am</td>
+        <td>
+          Project count before clearing the sales start date: 1 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:29 am</td>
+        <td>
+          Project count after clearing the sales start date: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:29 am</td>
+        <td>
+          ✅ The project count updated after clearing the sales start date.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:29 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:29 am</span> / <span>00:00:03:077</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:29 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:32 am</span>
+<span class='badge badge-default'>00:00:03:077</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:29 am</td>
+        <td>
+          🔍 Test Case: Verifies that entering minimum and maximum completion percentage values filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:29 am</td>
+        <td>
+          Project count before setting completion percentage range: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:32 am</td>
+        <td>
+          Project count after setting completion percentage range: 353 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:32 am</td>
+        <td>
+          ✅ The project count updated after setting min/max completion percentage.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:32 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:32 am</span> / <span>00:00:02:520</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:32 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:34 am</span>
+<span class='badge badge-default'>00:00:02:520</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:32 am</td>
+        <td>
+          🔍 Test Case: Verifies that resetting the completion percentage range updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:32 am</td>
+        <td>
+          Project count before resetting completion percentage: 353 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:34 am</td>
+        <td>
+          Project count after resetting completion percentage: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:34 am</td>
+        <td>
+          ✅ The project count updated after resetting min/max completion percentage.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:34 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:34 am</span> / <span>00:00:02:962</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:34 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:37 am</span>
+<span class='badge badge-default'>00:00:02:962</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:34 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting '5 Bedrooms' filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:34 am</td>
+        <td>
+          Project count before selecting '5 Bedrooms': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:37 am</td>
+        <td>
+          Project count after selecting '5 Bedrooms': 172 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:37 am</td>
+        <td>
+          ✅ The project count updated after selecting '5 Bedrooms'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:37 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:37 am</span> / <span>00:00:02:507</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:37 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:40 am</span>
+<span class='badge badge-default'>00:00:02:507</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:37 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting '5 Bedrooms' updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:37 am</td>
+        <td>
+          Project count before unselecting '5 Bedrooms': 172 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:40 am</td>
+        <td>
+          Project count after unselecting '5 Bedrooms': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:40 am</td>
+        <td>
+          ✅ The project count updated after unselecting '5 Bedrooms'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:40 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:40 am</span> / <span>00:00:03:542</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:40 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:43 am</span>
+<span class='badge badge-default'>00:00:03:542</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:40 am</td>
+        <td>
+          🔍 Test Case: Verifies that entering minimum and maximum built-up area values filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:40 am</td>
+        <td>
+          Project count before setting built-up area range: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:43 am</td>
+        <td>
+          Project count after setting built-up area range: 363 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:43 am</td>
+        <td>
+          ✅ The project count updated after setting min/max built-up area.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:43 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:43 am</span> / <span>00:00:02:574</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:43 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:46 am</span>
+<span class='badge badge-default'>00:00:02:574</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:43 am</td>
+        <td>
+          🔍 Test Case: Verifies that resetting the built-up area range updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:43 am</td>
+        <td>
+          Project count before resetting built-up area: 363 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:46 am</td>
+        <td>
+          Project count after resetting built-up area: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:46 am</td>
+        <td>
+          ✅ The project count updated after resetting built-up area.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:46 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:46 am</span> / <span>00:00:03:988</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:46 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:50 am</span>
+<span class='badge badge-default'>00:00:03:988</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:46 am</td>
+        <td>
+          🔍 Test Case: Verifies that entering minimum and maximum plot area values filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:46 am</td>
+        <td>
+          Project count before setting plot area range: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:50 am</td>
+        <td>
+          Project count after setting plot area range: 142 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:50 am</td>
+        <td>
+          ✅ The project count updated after setting min/max plot area.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:50 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:50 am</span> / <span>00:00:02:543</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:50 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:52 am</span>
+<span class='badge badge-default'>00:00:02:543</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:50 am</td>
+        <td>
+          🔍 Test Case: Verifies that resetting the plot area range updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:50 am</td>
+        <td>
+          Project count before resetting plot area: 142 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:52 am</td>
+        <td>
+          Project count after resetting plot area: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:52 am</td>
+        <td>
+          ✅ The project count updated after resetting plot area.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:52 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:52 am</span> / <span>00:00:03:571</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:52 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:56 am</span>
+<span class='badge badge-default'>00:00:03:571</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:52 am</td>
+        <td>
+          🔍 Test Case: Verifies that entering minimum and maximum down payment percentage values filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:53 am</td>
+        <td>
+          Project count before setting down payment percentage: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:56 am</td>
+        <td>
+          Project count after setting down payment percentage: 462 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:56 am</td>
+        <td>
+          ✅ The project count updated after setting min/max down payment percentage.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:56 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:56 am</span> / <span>00:00:02:522</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:56 am</span>
+<span class='badge badge-danger'>06.15.2025 12:21:59 am</span>
+<span class='badge badge-default'>00:00:02:522</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:56 am</td>
+        <td>
+          🔍 Test Case: Verifies that resetting the down payment percentage range updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:56 am</td>
+        <td>
+          Project count before resetting down payment percentage: 462 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:59 am</td>
+        <td>
+          Project count after resetting down payment percentage: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:59 am</td>
+        <td>
+          ✅ The project count updated after resetting down payment percentage.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:21:59 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:21:59 am</span> / <span>00:00:04:101</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:21:59 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:03 am</span>
+<span class='badge badge-default'>00:00:04:101</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:59 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting 'On Completion' payment plan filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:21:59 am</td>
+        <td>
+          Project count before selecting payment plan: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:03 am</td>
+        <td>
+          Project count after selecting 'On Completion' payment plan: 794 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:03 am</td>
+        <td>
+          ✅ The project count updated after selecting 'On Completion' payment plan.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:03 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:03 am</span> / <span>00:00:04:076</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:03 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:07 am</span>
+<span class='badge badge-default'>00:00:04:076</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:03 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting 'On Completion' payment plan updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:03 am</td>
+        <td>
+          Project count before unselecting payment plan: 794 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:07 am</td>
+        <td>
+          Project count after unselecting payment plan: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:07 am</td>
+        <td>
+          ✅ The project count updated after unselecting 'On Completion' payment plan.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:07 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:07 am</span> / <span>00:00:03:527</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:07 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:10 am</span>
+<span class='badge badge-default'>00:00:03:527</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:07 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting '50%' DLD transfer fee filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:07 am</td>
+        <td>
+          Project count before selecting DLD transfer fee: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:10 am</td>
+        <td>
+          Project count after selecting '50%' DLD transfer fee: 56 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:10 am</td>
+        <td>
+          ✅ The project count updated after selecting '50%' DLD transfer fee.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:10 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:10 am</span> / <span>00:00:03:529</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:10 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:14 am</span>
+<span class='badge badge-default'>00:00:03:529</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:10 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting '50%' DLD transfer fee updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:10 am</td>
+        <td>
+          Project count before unselecting DLD transfer fee: 56 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:14 am</td>
+        <td>
+          Project count after unselecting DLD transfer fee: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:14 am</td>
+        <td>
+          ✅ The project count updated after unselecting '50%' DLD transfer fee.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:14 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:14 am</span> / <span>00:00:02:843</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:14 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:17 am</span>
+<span class='badge badge-default'>00:00:02:843</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:14 am</td>
+        <td>
+          🔍 Test Case: Verifies that entering minimum and maximum broker commission values filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:14 am</td>
+        <td>
+          Project count before setting broker commission: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:17 am</td>
+        <td>
+          Project count after setting broker commission: 478 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:17 am</td>
+        <td>
+          ✅ The project count updated after setting min/max broker commission.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:17 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:17 am</span> / <span>00:00:02:756</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:17 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:19 am</span>
+<span class='badge badge-default'>00:00:02:756</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:17 am</td>
+        <td>
+          🔍 Test Case: Verifies that resetting the broker commission range updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:17 am</td>
+        <td>
+          Project count before resetting broker commission: 478 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:19 am</td>
+        <td>
+          Project count after resetting broker commission: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:19 am</td>
+        <td>
+          ✅ The project count updated after resetting broker commission.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:19 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:19 am</span> / <span>00:00:03:596</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:19 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:23 am</span>
+<span class='badge badge-default'>00:00:03:596</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:19 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting 'Mid-Rise' height class filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:19 am</td>
+        <td>
+          Project count before selecting height class: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:23 am</td>
+        <td>
+          Project count after selecting 'Mid-Rise' height class: 9 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:23 am</td>
+        <td>
+          ✅ The project count updated after selecting 'Mid-Rise' option.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:23 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:23 am</span> / <span>00:00:03:510</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:23 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:27 am</span>
+<span class='badge badge-default'>00:00:03:510</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:23 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting 'Mid-Rise' height class updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:23 am</td>
+        <td>
+          Project count before unselecting height class: 9 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:27 am</td>
+        <td>
+          Project count after unselecting height class: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:27 am</td>
+        <td>
+          ✅ The project count updated after unselecting 'Mid-Rise' option.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:27 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:27 am</span> / <span>00:00:04:121</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:27 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:31 am</span>
+<span class='badge badge-default'>00:00:04:121</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:27 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting multiple brands ('1 Hotels', '25 Hours Hotels') filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:27 am</td>
+        <td>
+          Project count before selecting brands: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:31 am</td>
+        <td>
+          Project count after selecting brands: 5 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:31 am</td>
+        <td>
+          ✅ The project count updated after selecting brands.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:31 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="36"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:31 am</span> / <span>00:00:10:759</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:31 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:41 am</span>
+<span class='badge badge-default'>00:00:10:759</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:31 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting multiple brands updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:31 am</td>
+        <td>
+          Project count before unselecting brands: 5 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:22:41 am</td>
+        <td>
+          The test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()='1 Hotels']/preceding-sibling::span (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.4, moz:accessibilityChecks: false, moz:buildID: 20250609112858, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.5.0, moz:processID: 68504, moz:profile: /var/folders/lq/n2dxsxc55_1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a9e3a22d-5e20-4040-bcd3-ef46b96324a2
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:41 am</span> / <span>00:00:04:175</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:41 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:46 am</span>
+<span class='badge badge-default'>00:00:04:175</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:41 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting 'Partially Furnished' filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:41 am</td>
+        <td>
+          Project count before selecting furnishing: 5 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:46 am</td>
+        <td>
+          Project count after selecting furnishing: 4 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:46 am</td>
+        <td>
+          ✅ The project count updated after selecting 'Partially Furnished'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:46 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:46 am</span> / <span>00:00:03:513</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:46 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:49 am</span>
+<span class='badge badge-default'>00:00:03:513</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:46 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting 'Partially Furnished' updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:46 am</td>
+        <td>
+          Project count before unselecting furnishing: 4 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:49 am</td>
+        <td>
+          Project count after unselecting furnishing: 5 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:49 am</td>
+        <td>
+          ✅ The project count updated after unselecting 'Partially Furnished'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:49 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:49 am</span> / <span>00:00:03:495</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:49 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:53 am</span>
+<span class='badge badge-default'>00:00:03:495</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:49 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting 'Fully Equipped' for kitchen filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:49 am</td>
+        <td>
+          Project count before selecting kitchen option: 5 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:53 am</td>
+        <td>
+          Project count after selecting kitchen option: 0 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:53 am</td>
+        <td>
+          ✅ The project count updated after selecting 'Fully Equipped' kitchen option.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:53 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:53 am</span> / <span>00:00:03:523</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:53 am</span>
+<span class='badge badge-danger'>06.15.2025 12:22:56 am</span>
+<span class='badge badge-default'>00:00:03:523</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:53 am</td>
+        <td>
+          🔍 Test Case: Verifies that unselecting 'Fully Equipped' for kitchen updates the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:53 am</td>
+        <td>
+          Project count before unselecting kitchen option: 0 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:56 am</td>
+        <td>
+          Project count after unselecting kitchen option: 5 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:56 am</td>
+        <td>
+          ✅ The project count updated after unselecting 'Fully Equipped' kitchen option.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:22:56 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="41"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:22:56 am</span> / <span>00:00:03:523</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:22:56 am</span>
+<span class='badge badge-danger'>06.15.2025 12:23:00 am</span>
+<span class='badge badge-default'>00:00:03:523</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:56 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting 'A La Carte Services' amenity filters the project list.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:22:56 am</td>
+        <td>
+          Project count before selecting amenities: 5 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:00 am</td>
+        <td>
+          Project count after selecting amenities: 3 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:00 am</td>
+        <td>
+          ✅ The project count updated after selecting amenities.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:00 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:23:00 am</span> / <span>00:00:02:667</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:23:00 am</span>
+<span class='badge badge-danger'>06.15.2025 12:23:02 am</span>
+<span class='badge badge-default'>00:00:02:667</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:00 am</td>
+        <td>
+          🔍 Test Case: Verifies that clicking the 'Reset Filters' button clears all filters and updates the project count.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:00 am</td>
+        <td>
+          Project count before clicking 'Reset Filters': 3 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:02 am</td>
+        <td>
+          Project count after clicking 'Reset Filters': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:02 am</td>
+        <td>
+          ✅ The project count updated after clicking 'Reset Filters'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:02 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="43"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:23:02 am</span> / <span>00:00:22:888</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:23:02 am</span>
+<span class='badge badge-danger'>06.15.2025 12:23:25 am</span>
+<span class='badge badge-default'>00:00:22:888</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:02 am</td>
+        <td>
+          🔍 Test Case: Verifies that clicking the 'Apply' button in the Advance Filter section closes it.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:15 am</td>
+        <td>
+          Re-opened the Advance Filter section for this test.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:25 am</td>
+        <td>
+          The test failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@data-test-id='apply'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.5', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.4, moz:accessibilityChecks: false, moz:buildID: 20250609112858, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.5.0, moz:processID: 68504, moz:profile: /var/folders/lq/n2dxsxc55_1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a9e3a22d-5e20-4040-bcd3-ef46b96324a2
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="44"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:23:25 am</span> / <span>00:00:04:500</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:23:25 am</span>
+<span class='badge badge-danger'>06.15.2025 12:23:30 am</span>
+<span class='badge badge-default'>00:00:04:500</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:25 am</td>
+        <td>
+          🔍 Test Case: Verifies that selecting the 'Heatmap' option updates the displayed project count.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:25 am</td>
+        <td>
+          Project count before selecting Heatmap: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:30 am</td>
+        <td>
+          Project count after selecting Heatmap: 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:30 am</td>
+        <td>
+          The test failed: java.lang.AssertionError: ❌ The project count did not change after selecting Heatmap. did not expect [995 projects found] but found [995 projects found]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="45"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:23:30 am</span> / <span>00:00:16:077</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:23:30 am</span>
+<span class='badge badge-danger'>06.15.2025 12:23:46 am</span>
+<span class='badge badge-default'>00:00:16:077</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:30 am</td>
+        <td>
+          🔍 Test Case: Verifies that sorting the project list by different options (Earliest Completion, Latest Completion, Recently Added) reorders the projects.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:31 am</td>
+        <td>
+          Initial project list retrieved.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:31 am</td>
+        <td>
+          Attempting to sort by: 'Earliest Completion'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:36 am</td>
+        <td>
+          Project list after sorting by 'Earliest Completion': 19 projects found.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:36 am</td>
+        <td>
+          ✅ Project list successfully reordered/updated after sorting by 'Earliest Completion'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:36 am</td>
+        <td>
+          Attempting to sort by: 'Latest Completion'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:41 am</td>
+        <td>
+          Project list after sorting by 'Latest Completion': 19 projects found.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:41 am</td>
+        <td>
+          ✅ Project list successfully reordered/updated after sorting by 'Latest Completion'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:41 am</td>
+        <td>
+          Attempting to sort by: 'Recently Added'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:46 am</td>
+        <td>
+          Project list after sorting by 'Recently Added': 19 projects found.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:46 am</td>
+        <td>
+          ✅ Project list successfully reordered/updated after sorting by 'Recently Added'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:46 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="46"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:23:46 am</span> / <span>00:00:17:767</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:23:46 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:04 am</span>
+<span class='badge badge-default'>00:00:17:767</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:46 am</td>
+        <td>
+          🔍 Test Case: Verifies that submitting the feedback form displays a successful thank-you message.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:23:46 am</td>
+        <td>
+          Clicking the 'Feedback' button and entering test messages.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:24:04 am</td>
+        <td>
+          ❌ Feedback submission failed. The thank-you message was not found.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:24:04 am</td>
+        <td>
+          The test failed: java.lang.AssertionError: ❌ The feedback form did not show the thank-you message. expected [true] but found [false]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="47"
+          author=""
+          tag="ProjectSearchPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Search Page</p>
+            <p class="text-sm">
+              <span>12:24:04 am</span> / <span>00:00:20:728</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Search Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:04 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:24 am</span>
+<span class='badge badge-default'>00:00:20:728</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectSearchPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:04 am</td>
+        <td>
+          🔍 Test Case: Verifies that clicking elements on a project card (like title, bedrooms, payments) opens the correct linked page/tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:04 am</td>
+        <td>
+          Checking if clicking different parts of a project card leads to the right sections.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:24 am</td>
+        <td>
+          ✅ Clicking the 'Date Link' element worked as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:24 am</td>
+        <td>
+          ✅ Clicking the 'Project Title' element worked as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:24 am</td>
+        <td>
+          ✅ Clicking the 'Project Image' element worked as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:24 am</td>
+        <td>
+          ✅ Clicking the 'Project Units' element worked as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:24 am</td>
+        <td>
+          ✅ Clicking the 'Downpayment Link' element worked as expected.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:24 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="48"
           author=""
           tag="ProjectDetailPage"
           device="">
           <div class="test-detail">
             <p class="name">📄 Project Detail Page</p>
             <p class="text-sm">
-              <span>12:18:14 am</span> / <span>00:00:02:624</span>
+              <span>12:24:25 am</span> / <span>00:00:10:639</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -668,10 +3430,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">📄 Project Detail Page</h5>
-<span class='badge badge-success'>06.15.2025 12:18:14 am</span>
-<span class='badge badge-danger'>06.15.2025 12:18:16 am</span>
-<span class='badge badge-default'>00:00:02:624</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-success'>06.15.2025 12:24:25 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:35 am</span>
+<span class='badge badge-default'>00:00:10:639</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
@@ -684,42 +3446,546 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:14 am</td>
+        <td>12:24:25 am</td>
+        <td>
+          🔍 Test Case: Verifies that user can open the Project Detail page in a new tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          ✅ Successfully navigated to the Project Detail page.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          🎯 Project Detail page opened in a new tab and verified successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="49"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:35 am</span> / <span>00:00:00:064</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:35 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:35 am</span>
+<span class='badge badge-default'>00:00:00:064</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          🔍 Test Case: Verifies that Property Details section is visible in Overview tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          Checking visibility of Property Details section.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          ✅ Property Details section is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:35 am</span> / <span>00:00:00:712</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:35 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:36 am</span>
+<span class='badge badge-default'>00:00:00:712</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:35 am</td>
+        <td>
+          🔍 Test Case: Verifies that Map is visible after clicking Map tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:36 am</td>
+        <td>
+          Checking visibility of Map on Map tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:36 am</td>
+        <td>
+          ✅ Map is visible after clicking Map tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:36 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="51"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:36 am</span> / <span>00:00:00:500</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:36 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:37 am</span>
+<span class='badge badge-default'>00:00:00:500</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:36 am</td>
+        <td>
+          🔍 Test Case: Verifies that images load correctly after clicking Images tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:37 am</td>
+        <td>
+          Checking if images are loaded.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:37 am</td>
+        <td>
+          ✅ Images loaded and visible after clicking Images tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:37 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="52"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:37 am</span> / <span>00:00:16:376</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:37 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:53 am</span>
+<span class='badge badge-default'>00:00:16:376</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=52</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:37 am</td>
+        <td>
+          🔍 Test Case: Verifies Units and Layout tab elements like Topology, Floor Chart, Floor Plan Pictures, and Unit List Table.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:53 am</td>
+        <td>
+          Verifying all components on Units and Layouts tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:53 am</td>
+        <td>
+          ✅ All elements on Units and Layouts tab are loaded and visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:53 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="53"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:53 am</span> / <span>00:00:00:707</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:53 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:54 am</span>
+<span class='badge badge-default'>00:00:00:707</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:53 am</td>
+        <td>
+          🔍 Test Case: Verifies that Payment Plan table is visible after clicking Payment Plans tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          Checking if Payment Plan table is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          ✅ Payment Plan table is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="54"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:54 am</span> / <span>00:00:00:388</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:54 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:54 am</span>
+<span class='badge badge-default'>00:00:00:388</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=54</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          🔍 Test Case: Verifies that Inspection table is visible after clicking Inspections tab.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          Checking if Inspection table is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          ✅ Inspection table is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="55"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:54 am</span> / <span>00:00:00:290</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:54 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:54 am</span>
+<span class='badge badge-default'>00:00:00:290</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          🔍 Test Case: Verifies that Downloads tab opens and content is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          Checking if Downloads tab content is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          ✅ Downloads tab opened and content is visible.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:54 am</td>
+        <td>
+          The test passed successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="56"
+          author=""
+          tag="ProjectDetailPage"
+          device="">
+          <div class="test-detail">
+            <p class="name">📄 Project Detail Page</p>
+            <p class="text-sm">
+              <span>12:24:54 am</span> / <span>00:00:03:374</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">📄 Project Detail Page</h5>
+<span class='badge badge-success'>06.15.2025 12:24:54 am</span>
+<span class='badge badge-danger'>06.15.2025 12:24:58 am</span>
+<span class='badge badge-default'>00:00:03:374</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ProjectDetailPage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:54 am</td>
         <td>
           🔍 Test Case: Verifies breadcrumb navigation to Project Search page and project counts visibility.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:15 am</td>
+        <td>12:24:56 am</td>
         <td>
           ✅ Successfully navigated back to Project Search page via breadcrumb.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:18:15 am</td>
+        <td>12:24:56 am</td>
         <td>
           URL verification successful: https://pmiq.stage.propertymonitor.com/projects/project-search?sidebar=true&location_id=5727&location_name=Jumeirah%20Beach%20Residence
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:16 am</td>
+        <td>12:24:58 am</td>
         <td>
           ✅ Project counts text is visible on the Project Search page.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:16 am</td>
+        <td>12:24:58 am</td>
         <td>
           🎯 Breadcrumb navigation to Project Search page and project counts verification successful.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:18:16 am</td>
+        <td>12:24:58 am</td>
         <td>
           The test passed successfully.
         </td>
@@ -742,22 +4008,24 @@
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>10</span>
+<span class='badge log pass-bg'>40</span>
+<span class='badge log badge-danger'>5</span>
 </span>
-<p class="name">ProjectDetailPage</p>
-<p class="duration text-sm">10 tests</p>
+<p class="name">ProjectSearchPage</p>
+<p class="duration text-sm">45 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>ProjectDetailPage</h4>
-<span status="pass" class='badge log pass-bg'>10 passed</span>
+<h4>ProjectSearchPage</h4>
+<span status="pass" class='badge log pass-bg'>40 passed</span>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -770,72 +4038,446 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:17:42 am</td>
+<td>00:20:03 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='3' id='3'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:17:53 am</td>
+<td>00:20:13 am</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='4' id='4'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:17:53 am</td>
+<td>00:20:17 am</td>
 <td>
-<a href="#" class="linked" test-id='3' id='3'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='5' id='5'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:17:53 am</td>
+<td>00:20:22 am</td>
 <td>
-<a href="#" class="linked" test-id='4' id='4'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='6' id='6'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:17:54 am</td>
+<td>00:20:26 am</td>
 <td>
-<a href="#" class="linked" test-id='5' id='5'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='7' id='7'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:18:10 am</td>
+<td>00:20:32 am</td>
 <td>
-<a href="#" class="linked" test-id='6' id='6'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='8' id='8'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:18:11 am</td>
+<td>00:20:37 am</td>
 <td>
-<a href="#" class="linked" test-id='7' id='7'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='9' id='9'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:20:52 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:18:11 am</td>
+<td>00:21:04 am</td>
 <td>
-<a href="#" class="linked" test-id='8' id='8'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='11' id='11'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:18:11 am</td>
+<td>00:21:09 am</td>
 <td>
-<a href="#" class="linked" test-id='9' id='9'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='12' id='12'>📄 Project Search Page</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>00:18:14 am</td>
+<td>00:21:14 am</td>
 <td>
-<a href="#" class="linked" test-id='10' id='10'>📄 Project Detail Page</a>
+<a href="#" class="linked" test-id='13' id='13'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:19 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:22 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:26 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:29 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:32 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:34 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:37 am</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:40 am</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:43 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:46 am</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:50 am</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:52 am</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:56 am</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:21:59 am</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:03 am</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:07 am</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:10 am</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:14 am</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:17 am</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:19 am</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:23 am</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:27 am</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:22:31 am</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:41 am</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:46 am</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:49 am</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:53 am</td>
+<td>
+<a href="#" class="linked" test-id='40' id='40'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:22:56 am</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:23:00 am</td>
+<td>
+<a href="#" class="linked" test-id='42' id='42'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:23:02 am</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:23:25 am</td>
+<td>
+<a href="#" class="linked" test-id='44' id='44'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:23:30 am</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:23:46 am</td>
+<td>
+<a href="#" class="linked" test-id='46' id='46'>📄 Project Search Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:04 am</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>📄 Project Search Page</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">LoginPage</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LoginPage</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:20:02 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>📄 Login Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:20:03 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>📄 Login Page</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+</span>
+<p class="name">ProjectDetailPage</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>ProjectDetailPage</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:25 am</td>
+<td>
+<a href="#" class="linked" test-id='48' id='48'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:35 am</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:35 am</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:36 am</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:37 am</td>
+<td>
+<a href="#" class="linked" test-id='52' id='52'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:53 am</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:54 am</td>
+<td>
+<a href="#" class="linked" test-id='54' id='54'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:54 am</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>📄 Project Detail Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:54 am</td>
+<td>
+<a href="#" class="linked" test-id='56' id='56'>📄 Project Detail Page</a>
 </td>
 </tr>
 </tbody>
@@ -855,25 +4497,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 15, 2025 12:17:28 am</h3>
+<h3>Jun 15, 2025 12:19:46 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 15, 2025 12:18:22 am</h3>
+<h3>Jun 15, 2025 12:25:03 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>10</h3>
+<h3>51</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>5</h3>
 </div></div>
 </div>
 </div>
@@ -889,12 +4531,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>10</b> tests passed
+<div><small data-tooltip='91%'>
+<b>51</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='8%'><b>5</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -912,10 +4554,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'><b>21</b> events passed</small></div>
+<div><small data-tooltip='39%'><b>110</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>21</b> others
+<small data-tooltip='2%'><b>6</b> events failed,
+<b data-tooltip='%'>161</b> others
 </small>
 </div>
 </div>
@@ -931,7 +4573,7 @@
 </div></div>
 <script>
 var timeline = {
-"📄 Project Detail Page":10.423,"📄 Project Detail Page":0.07,"📄 Project Detail Page":0.542,"📄 Project Detail Page":0.366,"📄 Project Detail Page":16.442,"📄 Project Detail Page":0.653,"📄 Project Detail Page":0.4,"📄 Project Detail Page":0.313,"📄 Project Detail Page":2.174,"📄 Project Detail Page":2.624
+"📄 Login Page":0.086,"📄 Login Page":0.02,"📄 Project Search Page":10.049,"📄 Project Search Page":3.466,"📄 Project Search Page":4.837,"📄 Project Search Page":4.818,"📄 Project Search Page":5.535,"📄 Project Search Page":4.975,"📄 Project Search Page":15.077,"📄 Project Search Page":12.291,"📄 Project Search Page":5.203,"📄 Project Search Page":4.629,"📄 Project Search Page":4.597,"📄 Project Search Page":2.968,"📄 Project Search Page":4.56,"📄 Project Search Page":2.528,"📄 Project Search Page":3.077,"📄 Project Search Page":2.52,"📄 Project Search Page":2.962,"📄 Project Search Page":2.507,"📄 Project Search Page":3.542,"📄 Project Search Page":2.574,"📄 Project Search Page":3.988,"📄 Project Search Page":2.543,"📄 Project Search Page":3.571,"📄 Project Search Page":2.522,"📄 Project Search Page":4.101,"📄 Project Search Page":4.076,"📄 Project Search Page":3.527,"📄 Project Search Page":3.529,"📄 Project Search Page":2.843,"📄 Project Search Page":2.756,"📄 Project Search Page":3.596,"📄 Project Search Page":3.51,"📄 Project Search Page":4.121,"📄 Project Search Page":10.759,"📄 Project Search Page":4.175,"📄 Project Search Page":3.513,"📄 Project Search Page":3.495,"📄 Project Search Page":3.523,"📄 Project Search Page":3.523,"📄 Project Search Page":2.667,"📄 Project Search Page":22.888,"📄 Project Search Page":4.5,"📄 Project Search Page":16.077,"📄 Project Search Page":17.767,"📄 Project Search Page":20.728,"📄 Project Detail Page":10.639,"📄 Project Detail Page":0.064,"📄 Project Detail Page":0.712,"📄 Project Detail Page":0.5,"📄 Project Detail Page":16.376,"📄 Project Detail Page":0.707,"📄 Project Detail Page":0.388,"📄 Project Detail Page":0.29,"📄 Project Detail Page":3.374
 };
 </script>
 <div class="row">
@@ -941,8 +4583,24 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
+<td>ProjectSearchPage</td>
+<td>40</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>88.889%</td>
+</tr>
+<tr>
+<td>LoginPage</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
 <td>ProjectDetailPage</td>
-<td>10</td>
+<td>9</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -975,8 +4633,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 10,
-failParent: 0,
+passParent: 51,
+failParent: 5,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -992,11 +4650,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 21,
-failEvents: 0,
+passEvents: 110,
+failEvents: 6,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 21
+infoEvents: 161
 };
 </script>        </div>
       </div>
