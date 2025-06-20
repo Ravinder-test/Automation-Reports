@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Property Monitor Test Suite</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 20, 2025 11:19:45 pm</span></a>
+<a href="#"><span class="badge badge-primary">Jun 21, 2025 12:13:48 am</span></a>
 </li>
 </ul>
 </div>
@@ -71,7 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -85,25 +85,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag="firefox"
           device="">
           <div class="test-detail">
             <p class="name">📄 Project Search Page [firefox]</p>
             <p class="text-sm">
-              <span>11:19:59 pm</span> / <span>00:00:58:391</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:14:05 am</span> / <span>00:01:42:148</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">📄 Project Search Page [firefox]</h5>
-<span class='badge badge-success'>06.20.2025 11:19:59 pm</span>
-<span class='badge badge-danger'>06.20.2025 11:20:58 pm</span>
-<span class='badge badge-default'>00:00:58:391</span>
+<h5 class="test-status text-pass">📄 Project Search Page [firefox]</h5>
+<span class='badge badge-success'>06.21.2025 12:14:05 am</span>
+<span class='badge badge-danger'>06.21.2025 12:15:47 am</span>
+<span class='badge badge-default'>00:01:42:148</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -117,178 +117,520 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:19:59 pm</td>
+        <td>12:14:05 am</td>
         <td>
-          🔍 Test Case: Verifies that selecting each Actual Completion Date option updates the project count, and that clearing the filter also updates the count.
+          🔍 Test Case: Verifies that selecting and unselecting each Bedroom option (Studio, 1-7, 8+) updates the project count correctly.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:19:59 pm</td>
+        <td>12:14:05 am</td>
         <td>
-          Attempting to select Actual Completion Date option: 'Completed'.
+          Attempting to select Bedroom option: 'Studio'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:01 pm</td>
+        <td>12:14:06 am</td>
         <td>
-          Project count before selecting 'Completed': 995 projects found
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:12 pm</td>
-        <td>
-          ❌ Failed to select 'Completed' due to: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='chakra-stack css-mw8ufx']//input[@placeholder='Select Actual Completion Date'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.15'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.4, moz:accessibilityChecks: false, moz:buildID: 20250609112858, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.5.0, moz:processID: 2035, moz:profile: /var/folders/lq/n2dxsxc55_1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
+          Project count before selecting 'Studio': 995 projects found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:12 pm</td>
+        <td>12:14:15 am</td>
         <td>
-          Attempting to select Actual Completion Date option: '2025 (upcoming)'.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:12 pm</td>
-        <td>
-          Project count before selecting '2025 (upcoming)': 995 projects found
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:22 pm</td>
-        <td>
-          ❌ Failed to select '2025 (upcoming)' due to: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='chakra-stack css-mw8ufx']//input[@placeholder='Select Actual Completion Date'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.15'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.4, moz:accessibilityChecks: false, moz:buildID: 20250609112858, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.5.0, moz:processID: 2035, moz:profile: /var/folders/lq/n2dxsxc55_1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:22 pm</td>
-        <td>
-          Attempting to select Actual Completion Date option: '2026'.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:22 pm</td>
-        <td>
-          Project count before selecting '2026': 995 projects found
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:32 pm</td>
-        <td>
-          ❌ Failed to select '2026' due to: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='chakra-stack css-mw8ufx']//input[@placeholder='Select Actual Completion Date'] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.15'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.4, moz:accessibilityChecks: false, moz:buildID: 20250609112858, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.5.0, moz:processID: 2035, moz:profile: /var/folders/lq/n2dxsxc55_1..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:32 pm</td>
-        <td>
-          Attempting to select Actual Completion Date option: '2027'.
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:32 pm</td>
-        <td>
-          Project count before selecting '2027': 995 projects found
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:49 pm</td>
-        <td>
-          Project count after selecting '2027': 166 from 995 projects
+          Project count after selecting 'Studio': 359 from 995 projects
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:49 pm</td>
+        <td>12:14:15 am</td>
         <td>
-          ✅ Project count updated after selecting '2027'.
+          ✅ Project count updated after selecting 'Studio'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:49 pm</td>
+        <td>12:14:15 am</td>
         <td>
-          Attempting to select Actual Completion Date option: '2028 and later'.
+          Attempting to unselect Bedroom option: 'Studio'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:49 pm</td>
+        <td>12:14:15 am</td>
         <td>
-          Project count before selecting '2028 and later': 166 from 995 projects
+          Project count before unselecting 'Studio': 359 from 995 projects
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:55 pm</td>
+        <td>12:14:21 am</td>
         <td>
-          Project count after selecting '2028 and later': 104 from 995 projects
+          Project count after unselecting 'Studio': 995 projects found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:55 pm</td>
+        <td>12:14:21 am</td>
         <td>
-          ✅ Project count updated after selecting '2028 and later'.
+          ✅ Project count updated after unselecting 'Studio'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:55 pm</td>
+        <td>12:14:21 am</td>
         <td>
-          Attempting to clear Actual Completion Date selection.
+          Attempting to select Bedroom option: '1'.
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:55 pm</td>
+        <td>12:14:21 am</td>
         <td>
-          Project count before clearing completion date filter: 104 from 995 projects
+          Project count before selecting '1': 995 projects found
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>11:20:58 pm</td>
+        <td>12:14:26 am</td>
         <td>
-          Project count after clearing completion date filter: 995 projects found
+          Project count after selecting '1': 679 from 995 projects
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>11:20:58 pm</td>
+        <td>12:14:26 am</td>
         <td>
-          ✅ Project count updated after clearing the completion date filter.
+          ✅ Project count updated after selecting '1'.
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:20:58 pm</td>
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:26 am</td>
         <td>
-          The test failed: java.lang.AssertionError: ❌ One or more Actual Completion Date filter operations or clear operation failed to update the project count as expected. expected [true] but found [false]
+          Attempting to unselect Bedroom option: '1'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:26 am</td>
+        <td>
+          Project count before unselecting '1': 679 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:31 am</td>
+        <td>
+          Project count after unselecting '1': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:14:31 am</td>
+        <td>
+          ✅ Project count updated after unselecting '1'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:31 am</td>
+        <td>
+          Attempting to select Bedroom option: '2'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:31 am</td>
+        <td>
+          Project count before selecting '2': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:36 am</td>
+        <td>
+          Project count after selecting '2': 673 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:14:36 am</td>
+        <td>
+          ✅ Project count updated after selecting '2'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:36 am</td>
+        <td>
+          Attempting to unselect Bedroom option: '2'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:36 am</td>
+        <td>
+          Project count before unselecting '2': 673 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:42 am</td>
+        <td>
+          Project count after unselecting '2': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:14:42 am</td>
+        <td>
+          ✅ Project count updated after unselecting '2'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:42 am</td>
+        <td>
+          Attempting to select Bedroom option: '3'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:42 am</td>
+        <td>
+          Project count before selecting '3': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:47 am</td>
+        <td>
+          Project count after selecting '3': 564 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:14:47 am</td>
+        <td>
+          ✅ Project count updated after selecting '3'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:47 am</td>
+        <td>
+          Attempting to unselect Bedroom option: '3'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:47 am</td>
+        <td>
+          Project count before unselecting '3': 564 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:52 am</td>
+        <td>
+          Project count after unselecting '3': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:14:52 am</td>
+        <td>
+          ✅ Project count updated after unselecting '3'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:52 am</td>
+        <td>
+          Attempting to select Bedroom option: '4'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:52 am</td>
+        <td>
+          Project count before selecting '4': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:57 am</td>
+        <td>
+          Project count after selecting '4': 321 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:14:57 am</td>
+        <td>
+          ✅ Project count updated after selecting '4'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:57 am</td>
+        <td>
+          Attempting to unselect Bedroom option: '4'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:14:57 am</td>
+        <td>
+          Project count before unselecting '4': 321 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:02 am</td>
+        <td>
+          Project count after unselecting '4': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:02 am</td>
+        <td>
+          ✅ Project count updated after unselecting '4'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:02 am</td>
+        <td>
+          Attempting to select Bedroom option: '5'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:02 am</td>
+        <td>
+          Project count before selecting '5': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:08 am</td>
+        <td>
+          Project count after selecting '5': 172 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:08 am</td>
+        <td>
+          ✅ Project count updated after selecting '5'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:08 am</td>
+        <td>
+          Attempting to unselect Bedroom option: '5'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:08 am</td>
+        <td>
+          Project count before unselecting '5': 172 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:13 am</td>
+        <td>
+          Project count after unselecting '5': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:13 am</td>
+        <td>
+          ✅ Project count updated after unselecting '5'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:13 am</td>
+        <td>
+          Attempting to select Bedroom option: '6'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:13 am</td>
+        <td>
+          Project count before selecting '6': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:19 am</td>
+        <td>
+          Project count after selecting '6': 77 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:19 am</td>
+        <td>
+          ✅ Project count updated after selecting '6'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:19 am</td>
+        <td>
+          Attempting to unselect Bedroom option: '6'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:19 am</td>
+        <td>
+          Project count before unselecting '6': 77 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:25 am</td>
+        <td>
+          Project count after unselecting '6': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:25 am</td>
+        <td>
+          ✅ Project count updated after unselecting '6'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:25 am</td>
+        <td>
+          Attempting to select Bedroom option: '7'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:25 am</td>
+        <td>
+          Project count before selecting '7': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:31 am</td>
+        <td>
+          Project count after selecting '7': 32 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:31 am</td>
+        <td>
+          ✅ Project count updated after selecting '7'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:31 am</td>
+        <td>
+          Attempting to unselect Bedroom option: '7'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:31 am</td>
+        <td>
+          Project count before unselecting '7': 32 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:37 am</td>
+        <td>
+          Project count after unselecting '7': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:37 am</td>
+        <td>
+          ✅ Project count updated after unselecting '7'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:37 am</td>
+        <td>
+          Attempting to select Bedroom option: '8+'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:37 am</td>
+        <td>
+          Project count before selecting '8+': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:42 am</td>
+        <td>
+          Project count after selecting '8+': 3 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:42 am</td>
+        <td>
+          ✅ Project count updated after selecting '8+'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:42 am</td>
+        <td>
+          Attempting to unselect Bedroom option: '8+'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:42 am</td>
+        <td>
+          Project count before unselecting '8+': 3 from 995 projects
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:15:47 am</td>
+        <td>
+          Project count after unselecting '8+': 995 projects found
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:47 am</td>
+        <td>
+          ✅ Project count updated after unselecting '8+'.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:15:47 am</td>
+        <td>
+          The test passed successfully.
         </td>
       </tr>
   </tbody>
@@ -316,7 +658,7 @@ Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
 <p class="name">firefox</p>
 <p class="duration text-sm">1 tests</p>
@@ -324,7 +666,7 @@ Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
 <div class="test-contents d-none">
 <div class="info">
 <h4>firefox</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -335,9 +677,9 @@ Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>23:19:59 pm</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:14:05 am</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>📄 Project Search Page [firefox]</a>
 </td>
@@ -359,25 +701,25 @@ Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 20, 2025 11:19:45 pm</h3>
+<h3>Jun 21, 2025 12:13:48 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 20, 2025 11:21:04 pm</h3>
+<h3>Jun 21, 2025 12:15:53 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -393,12 +735,12 @@ Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> tests failed,
+<small data-tooltip='0%'><b>0</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -416,10 +758,10 @@ Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='13%'><b>3</b> events passed</small></div>
+<div><small data-tooltip='25%'><b>19</b> events passed</small></div>
 <div>
-<small data-tooltip='17%'><b>4</b> events failed,
-<b data-tooltip='%'>16</b> others
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>55</b> others
 </small>
 </div>
 </div>
@@ -435,7 +777,7 @@ Session ID: 5d331947-5051-450f-a93a-d7acb419fe43
 </div></div>
 <script>
 var timeline = {
-"📄 Project Search Page [firefox]":58.391
+"📄 Project Search Page [firefox]":102.148
 };
 </script>
 <div class="row">
@@ -446,11 +788,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>firefox</td>
-<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -479,8 +821,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 1,
+passParent: 1,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -496,11 +838,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 3,
-failEvents: 4,
+passEvents: 19,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 16
+infoEvents: 55
 };
 </script>        </div>
       </div>
